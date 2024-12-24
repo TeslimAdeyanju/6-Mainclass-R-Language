@@ -1,0 +1,8 @@
+.lintr.
+linters: with_defaults(
+    line_length_linter(120),
+    commented_code_linter = NULL
+)
+exclusions: list("tests")
+linters: with_defaults(
+  infix_spaces_linter
